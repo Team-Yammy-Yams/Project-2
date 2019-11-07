@@ -1,5 +1,15 @@
+td{
+padding: 1%;
+width:20%;
+}
+table{
+  margin-top: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
 h1{
-  text-align: center;
+text-align: center;
 margin: auto;
 margin-top: 2%;
 margin-bottom: 4%;
@@ -12,7 +22,7 @@ img{
 
 text-align: center;
 margin: auto;
-  width:34%;
+width:34%;
 }
 p{
   line-height: 1.35em;
@@ -21,3 +31,4 @@ p{
 margin: auto;
 width: 60%;
 }
+

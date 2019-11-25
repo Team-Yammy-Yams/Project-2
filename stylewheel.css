@@ -1,11 +1,9 @@
-td{
-padding: 1%;
-width:20%;
-}
-table{
-  margin-top: 3%;
-  margin-right: 4%;
-  margin-left: 4%;
+
+.textrow1{
+    width:30%;
+  text-align:center;
+display: inline-block;
+
 }
 
 h1{

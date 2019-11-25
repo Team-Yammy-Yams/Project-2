@@ -1,3 +1,12 @@
+td{
+padding: 1%;
+width:20%;
+}
+table{
+  margin-top: 3%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
 
 h1{
 text-align: center;
@@ -9,7 +18,6 @@ margin-bottom: 4%;
 
   margin-top: 3%;
 }
-
 img{
 
 text-align: center;
@@ -23,10 +31,19 @@ p{
 margin: auto;
 width: 60%;
 }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+}
 
-.textrow1{
-    width:30%;
-  text-align:center;
-display: inline-block;
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
 }

@@ -1,0 +1,77 @@
+body{
+  font-family: 'PT Serif',"Rubik",serif;
+}
+.textrow1{
+  padding: 4%;
+width: 100%;
+text-align:center;
+display:block;
+}
+
+h1{
+text-align: center;
+margin: auto;
+margin-top: 2%;
+margin-bottom: 4%;
+}
+.contact{
+
+  margin-top: 3%;
+}
+img{
+
+text-align: center;
+margin: auto;
+width:34%;
+}
+p{
+  line-height: 1.35em;
+  font-size: 120%;
+  text-align: center;
+margin: auto;
+width: 60%;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+}
+form {
+  padding-top: 0.5em;
+}
+
+
+h1 {  
+  text-align: center;
+  font-size: 3em; 
+  line-height: 1.3em;
+}
+
+button{
+	width: 100px;
+	text-align:center;
+}
+
+@media only screen and (min-width: 700px) {
+  p{
+    width:80%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .textrow1{
+      width:25%;
+    text-align:center;
+  display: inline-block;
+  }
+}

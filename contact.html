@@ -4,7 +4,7 @@
     <title>Frayed Knot Art</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="screen.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
 	<script src="index.js" async ></script> 
   </head>
   <body>
@@ -12,7 +12,7 @@
 	<ul>
 	  <li><a href="index.html">Home</a></li>
 	  <li><a href="Wheel.html">Wheels</a></li>
-	  <li><a href="contact.html">Contact Us</a></li>
+	  <li><a href="Contactform/contact.html">Contact Us</a></li>
 	</ul>
     <main>
 	  <h1>Feel free to contact me </h1>
@@ -22,7 +22,7 @@
 	  <h1>If you decide to email me, please use the subject line so it doesnt fall into spam</h1>
 	  
       <textarea id="msg" name="user_message"></textarea>
-	    <form id="sign-up" action="#null" method="get" autocomplete=”on”>
+	    <form id="sign-up" action="#null" method="get">
       <ol>
         <li>
           <label for="fname">First and Last name</label>
@@ -37,8 +37,17 @@
           <input type="date" id="dob" name="date" />            
         </li>
       </ol>
-	<button onclick= "submitFunction()">Send my message </button>
+	<button id= "button" onclick= "submitFunction()">Send my message </button>
         </form>
     </main>
   </body>
 </html>
+
+
+
+
+
+
+
+
+

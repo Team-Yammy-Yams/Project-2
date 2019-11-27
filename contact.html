@@ -23,21 +23,17 @@
 	  <p id="contactnote">If you decide to email me, please use the subject line so it doesnt fall into spam</p>
 	  
       <textarea id="msg" name="user_message"></textarea>
-	    <form id="sign-up" action="#null" method="get">
-      <ol>
-        <li>
+	    <form id="sign-up" action="#null" method="get" autocomplete="on">
+      
           <label for="fname">First and Last name</label>
           <input type="fname" id="fname" name="fname" />            
-        </li>
-        <li>
+       
           <label for="email">Email Address</label>
           <input type="email" id="email" name="email" />            
-        </li>
-		<li>
+
           <label for="dob">Date of Birth</label>
           <input type="date" id="dob" name="date" />            
-        </li>
-      </ol>
+  
 	<button id= "button" onclick= "submitFunction()">Send my message </button>
         </form>
     </main>

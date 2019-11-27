@@ -3,46 +3,41 @@ body{
 }
 .textrow1{
   padding: 4%;
-width: 100%;
-text-align:center;
-display:block;
+  width: 100%;
+  text-align:center;
+  display:block;
 }
-
 h1{
-font-size: 3em; 
-line-height: 1.3em;
-text-align: center;
-margin: auto;
-margin-top: 2%;
-margin-bottom: 4%;
+  font-size: 3em; 
+  line-height: 1.3em;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 .contact{
-
   margin-top: 3%;
 }
 img{
-
-text-align: center;
-margin: auto;
-width:34%;
+  text-align: center;
+  margin: auto;
+  width:34%;
 }
 p{
   line-height: 1.35em;
   font-size: 120%;
   text-align: center;
-margin: auto;
-width: 60%;
+  margin: auto;
+  width: 60%;
 }
 ul {
   list-style-type: none;
   overflow: hidden;
   background-color: #C0C0C0;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -52,18 +47,21 @@ li a {
 form {
   padding-top: 0.5em;
 }
-
 button{
-	width: 100px;
-	text-align:center;
+  width: 100px;
+  text-align:center;
 }
-
-
+#contactnote{
+  font-size: 145%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 body {
   text-align:center;
-
 }
-
+label{
+  display:block;
+}
 .column {
   padding: 0 4px;
 }
@@ -71,8 +69,6 @@ body {
   margin-top: 8px;
   vertical-align: middle;
 }
-
-
 @media only screen and (min-width: 700px) {
   p{
     width:80%;
@@ -80,8 +76,8 @@ body {
 }
 @media only screen and (min-width: 1000px) {
   .textrow1{
-      width:25%;
+    width:25%;
     text-align:center;
-  display: inline-block;
+    display: inline-block;
   }
 }

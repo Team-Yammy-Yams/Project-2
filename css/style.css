@@ -1,6 +1,6 @@
 body{
   font-family: 'PT Serif',"Rubik",serif;
-  background-color: #F9FBF2;
+  background-color: #FFEDE1;
 
 }
 .textrow1{
@@ -36,7 +36,7 @@ p{
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #D7F9FF;
+  background-color: #AFCBFF;
 }
 li {
   float: left;

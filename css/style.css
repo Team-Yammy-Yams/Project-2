@@ -1,5 +1,7 @@
 body{
   font-family: 'PT Serif',"Rubik",serif;
+  background-color: #d9d0bb;
+
 }
 .textrow1{
   padding: 4%;
@@ -33,7 +35,7 @@ p{
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #C0C0C0;
+  background-color: #bbc2d9;
 }
 li {
   float: left;

@@ -7,7 +7,6 @@ body{
   text-align:center;
   display:block;
 }
-
 h1{
   font-size: 3em; 
   line-height: 1.3em;
@@ -24,7 +23,6 @@ img{
   margin: auto;
   width:34%;
 }
-
 p{
   line-height: 1.35em;
   font-size: 120%;
@@ -37,11 +35,9 @@ ul {
   overflow: hidden;
   background-color: black;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -51,21 +47,17 @@ li a {
 form {
   padding-top: 0.5em;
 }
-
 button{
   width: 100px;
   text-align:center;
 }
-
 #contactnote{
   font-size: 145%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
-
 body {
   text-align:center;
-
 }
 label{
   display:block;
@@ -77,8 +69,6 @@ label{
   margin-top: 8px;
   vertical-align: middle;
 }
-
-
 @media only screen and (min-width: 700px) {
   p{
     width:80%;

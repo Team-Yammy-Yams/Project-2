@@ -68,7 +68,9 @@ body {
   text-align:center;
 
 }
-
+label{
+  display:block;
+}
 .column {
   padding: 0 4px;
 }

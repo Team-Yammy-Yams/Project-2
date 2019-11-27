@@ -1,6 +1,6 @@
 body{
   font-family: 'PT Serif',"Rubik",serif;
-  background-color: #d9d0bb;
+  background-color: #F9FBF2;
 
 }
 .textrow1{
@@ -16,6 +16,7 @@ h1{
   margin: auto;
   margin-top: 2%;
   margin-bottom: 4%;
+  color: #0E1C36 ;
 }
 .contact{
   margin-top: 3%;
@@ -35,7 +36,7 @@ p{
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #bbc2d9;
+  background-color: #D7F9FF;
 }
 li {
   float: left;

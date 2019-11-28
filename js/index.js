@@ -19,7 +19,6 @@ else
   return false;
   }
 }
-
-  $("button").click(function(){
-    alert("Thank you very much for reaching out to us! You should here back from us in 2-3 business days");
-});
+ window.addEventListener("submit", function() {
+ alert("Thank you for joining us. More info will be sent to your email address once the beta is ready to go.");
+ });

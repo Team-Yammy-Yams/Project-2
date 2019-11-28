@@ -1,7 +1,10 @@
 document.getElementById("button").addEventListener("click", submitFunction);
 
 function submitFunction() {
-  alert("Thank you for the message! We will get back to you within 1-2 weeks");
+	if(ValidateEmail(document.getElementById("email").value)== true)
+		alert("Thank you for the message! We will get back to you within 1-2 weeks");
+	else
+		alert("You have entered an invalid email address!");
 }
 function ValidateEmail(inputText)
 {

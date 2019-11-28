@@ -1,51 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <title>Frayed Knot Art</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" async></script>
-  </head>
-  <body>
-  
-	<ul>
-	  <li><a href="index.html">Home</a></li>
-	  <li><a href="wheel.html">Wheels</a></li>
+<head>
+  <title>Frayed Knot Art</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/index.js" async></script>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="wheel.html">Wheels</a></li>
     <li id="onpage"><a href="#">Contact Us</a></li>
-	</ul>
-    <main>
-	  <h1>Feel free to contact me </h1>
-	  <h2>frayedknotarts@gmail.com</h2>
-	  <h3>267-254-8984 - Calls between 0800 and 2200 (Eastern US Time)</h3>
-	  <h4> 745 Scenic Circle, Knoxville TN 37865-4304</h4>
-	  <p id="contactnote">If you decide to email me, please use the subject line so it doesnt fall into spam</p>
-	  
- 
-	    <form id="sign-up" action="#null" method="get" autocomplete="on">
-	  <label for="msg">Your Message:</label>   
-           <textarea id="msg" name="user_message"></textarea>
-          <label for="fname">First and Last name</label>
-          <input type="fname" id="fname" name="fname" />            
-       
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" />            
-
-          <label for="dob">Date of Birth</label>
-          <input type="date" id="dob" name="date" />            
-  
-	<button id= "button" onclick= "submitFunction()">Send my message </button>
-        </form>
-    </main>
-  </body>
+  </ul>
+  <main>
+    <h1>Feel free to contact us </h1>
+    <h2>frayedknotarts@gmail.com</h2>
+    <h3>267-254-8984 - Calls between 0800 and 2200 (Eastern US Time)</h3>
+    <h4> 745 Scenic Circle, Knoxville TN 37865-4304</h4>
+    <p id="contactnote">If you decide to email me, please use the subject line so it doesnt fall into spam</p>
+    <form id="sign-up" action="#null" method="get" autocomplete="on">
+      <label for="msg">Your Message:</label>   
+      <textarea id="msg" name="user_message"></textarea>
+      <label for="fname">First and Last name</label>
+      <input type="text" id="fname" name="fname" />            
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" />                      
+      <input type="submit" value="Send!">
+    </form>
+  </main>
+</body>
 </html>
-
-
-
-
-
-
-
-
-

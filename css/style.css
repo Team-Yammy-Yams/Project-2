@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* color scheme: https://coolors.co/ffede1-f9fbf2-d7f9ff-afcbff-0e1c36 */
 body{
   font-family: 'PT Serif',"Rubik",serif;
@@ -85,3 +86,92 @@ label{
     display: inline-block;
   }
 }
+=======
+body{
+  font-family: 'PT Serif',"Rubik",serif;
+  background-color: #FFEDE1;
+}
+.textrow1{
+  padding: 4%;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+h1{
+  font-size: 3em; 
+  line-height: 1.3em;
+  text-align:center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  color: #0E1C36 ;
+}
+.contact{
+  margin-top: 3%;
+}
+img{
+  text-align: center;
+  margin: auto;
+  width: 34%;
+}
+p{
+  line-height: 1.35em;
+  font-size: 120%;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #AFCBFF;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+}
+form {
+  padding-top: 0.5em;
+}
+button{
+  width: 100px;
+  text-align: center;
+}
+#contactnote{
+  font-size: 145%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+body {
+  text-align: center;
+}
+label{
+  display: block;
+}
+.column {
+  padding: 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 700px) {
+  p{
+    width: 80%;
+	font-size: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .textrow1{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+	font-size: 110%;
+  }
+}
+>>>>>>> 99bc7c21fe0f924abc4b1cc20cf81d9797420157

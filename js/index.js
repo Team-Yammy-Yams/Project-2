@@ -1,3 +1,7 @@
+ window.addEventListener("submit", function() {
+ alert("Thank you for joining us. More info will be sent to your email address once the beta is ready to go.");
+ });
+
 document.getElementById("button").addEventListener("click", submitFunction);
 
 function submitFunction() {
@@ -19,6 +23,4 @@ else
   return false;
   }
 }
- window.addEventListener("submit", function() {
- alert("Thank you for joining us. More info will be sent to your email address once the beta is ready to go.");
- });
+
